@@ -7,14 +7,14 @@
 				"source": "text",
 				"selector": "div",
 				"default": ""
-		}
-    "message": {
-        "type": "string",
-        "source": "text",
-        "selector": "div",
-        "default": ""
-    }
-},
+		},
+	    "message": {
+	        "type": "string",
+	        "source": "text",
+	        "selector": "div",
+	        "default": ""
+	    }
+	},
 	"version": "0.1.0",
 	"title": "Columbus",
 	"category": "widgets",
