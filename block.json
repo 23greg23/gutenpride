@@ -1,11 +1,25 @@
 {
 	"apiVersion": 2,
 	"name": "create-block/columbus",
+	"attributes": {
+		"header": {
+				"type": "string",
+				"source": "text",
+				"selector": "div",
+				"default": ""
+		}
+    "message": {
+        "type": "string",
+        "source": "text",
+        "selector": "div",
+        "default": ""
+    }
+},
 	"version": "0.1.0",
 	"title": "Columbus",
 	"category": "widgets",
 	"icon": "smiley",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"description": "GG block test – build step required.",
 	"supports": {
 		"html": false
 	},
